@@ -1,0 +1,20 @@
+{
+  "name": "resume-builder",
+  "version": "1.0.0",
+  "description": "a website about how to make a resume",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch"
+  },
+  "keywords": [
+    "resume",
+    "build",
+    "resume"
+  ],
+  "author": "Yalda Khoshbahar",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

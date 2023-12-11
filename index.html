@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yalda Khoshbahar">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/output.css">
+    <title>A resume builder</title>
+</head>
+<body class="font-quicksand">
+    <header class="container">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="./images/resume-logo.png" alt="resume logo">
+                <h1 class="lg:block hidden text-primary text-xl font-semibold">FutureResume</h1>  
+            </div>
+            <div class="flex items-center gap-12">
+                <img class="md:hidden block" src="./images/hamburger-menu.svg" alt="hamburger-menu">
+                <button class="md:block hidden bg-transparent font-semibold border-[1px] border-primary rounded-3xl px-7 py-2">Sign up</button>  
+                <button class="md:block hidden bg-primary font-semibold text-white rounded-3xl px-8 py-2">Sign in</button>  
+            </div>
+        </div>
+    </header>
+
+    <section class="container relative sm:pt-10 pt-6">
+        <img class="absolute right-8 top-0" src="./images/Polygon4.svg" alt="">
+        <img class="xl:block hidden absolute top-14 left-32" src="./images/smallCircle.svg" alt="circle vector">
+        <div class="flex lg:flex-row flex-col lg:justify-normal justify-between items-center xl:gap-16 lg:gap-0 gap-16">
+            <div class="lg:text-left text-center relative flex flex-col lg:items-start items-center">
+                <h1 class="text-[44px] font-bold leading-[60px] sm:w-[600px] 375:w-[370px] w-[320px]">Create a <span class="text-primary">resume</span> that secures your <span class="text-primary">dream job</span>
+                </h1>
+                <p class="pt-3 pb-10 max-w-[400px]">Build a resume thats piques the interest of recruiters and 
+                    gets you hired. It’s fast and easy to use.
+                </p>
+                <a href="#" class="bg-[#FF5C00] text-white text-xl font-semibold px-16 py-3 rounded-3xl mx-auto">
+                    Try for free
+                </a>
+                <img class="absolute bottom-6 lg:left-[460px] left-0" src="./images/rectangles1.svg" alt="rectangles vector">
+            </div>
+            <div class="relative">
+                <img class="lg:hidden block absolute -top-1 -left-4 z-0" src="./images/rectangles2.svg" alt="rectangles vector">
+                <img class="relative z-10 " src="./images/resume template layout.png" alt="resume template layout image">
+                <img class="lg:hidden block absolute -right-4 bottom-[35%]" src="./images/circle.svg" width="72" alt="circle vector">
+                <img class="lg:hidden block absolute -bottom-6 right-[40%] z-10" src="./images/Polygon4.svg" alt="">
+            </div>
+        </div>
+        <img class="lg:block hidden absolute bottom-0 right-10" src="./images/smallCircle.svg" alt="circle vector">
+    </section>
+
+    <main class="my-32 sm:container">
+        <div>
+            <h2 class="sm:text-4xl text-2xl text-center font-bold mb-7">Build your <span class="text-primary">resume</span> in 3 steps</h2>
+            <div class="relative flex flex-col gap-12">
+                <img class="absolute right-0 lg:top-14 top-0" src="./images/circle.svg" alt="circle vector">
+                <div class="lg:flex block gap-14">
+                    <img class="lg:mx-0 mx-auto lg:w-48 w-fit" src="./images/pick template picture.png" alt="pick template image">
+                    <div class="flex gap-2 justify-center items-center">
+                        <span class="text-primary text-5xl font-bold">1.</span>
+                        <div>
+                            <h4 class="text-primary text-2xl font-bold">Pick a Template</h4>
+                            <p class="text-primary text-xs">Fill in the blanks and see results in real-time.</p>
+                        </div>
+                    </div>
+                </div>
+                <img class="absolute lg:left-44 left-0 lg:top-[50%] top-[35%]" src="./images/rectangles2.svg" width="62" alt="rectangles vector">
+                <div class="lg:flex block justify-end gap-14">
+                    <img class="lg:mx-0 mx-auto lg:w-48 w-fit" src="./images/customize layout picture.png" alt="customize layout image">
+                    <div class="flex gap-2 justify-center items-center">
+                        <span class="text-primary text-5xl font-bold">2.</span>
+                        <div>
+                            <h4 class="text-primary text-2xl font-bold">Customize Your Layout</h4>
+                            <p class="text-primary text-xs">Give your document a professional and elegant look.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:flex block gap-14">
+                    <img class="lg:mx-0 mx-auto lg:w-48 w-fit" src="./images/hit download picture.png" alt="hit download image">
+                    <div class="flex gap-2 justify-center items-center">
+                        <span class="text-primary text-5xl font-bold">3.</span>
+                        <div>
+                            <h4 class="text-primary text-2xl font-bold">Hit 'Download!'</h4>
+                            <p class="text-primary text-xs">Download your resume, apply, get more interviews.</p>
+                        </div>
+                    </div>
+                </div>
+                <img class="absolute lg:right-16 right-0 bottom-[28%]" src="./images/Polygon4.svg" width="80" alt="vector">
+            </div>
+        </div>
+    </main>
+
+    <section class="bg-[url('/src/images/sectionBackground.png')] bg-no-repeat bg-contain">
+        <div class="container flex lg:flex-row flex-col lg:gap-16 gap-8 justify-center items-center">
+            <div>
+                <h4 class="text-xl font-bold text-center pb-3 pt-1">Snapshot of our simple-to-use editor</h4>
+                <img src="./images/snapshot resume editor.png" alt="snapshot resume editor image">
+            </div>
+            <div class="flex flex-col justify-center lg:items-start items-center gap-6 relative">
+                <p class="text-sm lg:text-left text-center">All the flexibility & intuition you need to build a resume that stands out</p>
+                <img class="lg:hidden block absolute -left-3 top-24" src="./images/rectangles1.svg" alt="rectangles vector">
+                <img class="lg:hidden block absolute -right-3" src="./images/circle.svg" width="41" alt="circle vector">
+                <ul class="lg:pl-5 pl-0">
+                    <li class="list-disc text-primary text-lg">
+                        <span class="font-bold">Multi-theme & type face</span>
+                        <p class="lg:text-left text-center">for personalization.</p>
+                    </li>
+                    <li class="list-disc text-primary text-lg py-4">
+                        <span class="font-bold">Placeholder resume content</span>
+                        <p class="lg:text-left text-center">to guide your filling.</p> 
+                    </li>
+                    <li class="list-disc text-primary text-lg">
+                        <span class="font-bold"> Multiple layouts & templates</span>  
+                        <p class="lg:text-left text-center">to choose from.</p>
+                    </li>
+                </ul>
+                <a class="bg-primary text-white text-sm px-9 py-2 mt-3 rounded-3xl" href="#">Create Resume</a>
+                <div class="flex justify-center items-end gap-6 mt-4">
+                    <div class="flex flex-col">
+                        <span class="text-sm mb-2">Our stats:</span>
+                        <span class="text-3xl font-bold">200+</span>
+                        <p class="text-xs">users</p>
+                    </div>
+                    <div class="border-l-[1px] border-l-black pl-6">
+                        <span class="text-3xl font-bold ">3 mins</span>
+                        <p class="text-xs">Average resume building time</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="bg-[#fafafa] flex lg:flex-row flex-col justify-center items-center lg:gap-16 gap-6 my-24">
+            <div class="lg:text-left text-center">
+                <div>
+                    <div>
+                        <h4 class="sm:text-4xl text-3xl font-semibold">You can always pick</h4>
+                        <h4 class="sm:text-4xl text-3xl font-semibold">any template you like</h4> 
+                    </div>
+                    <p class="text-primary text-lg font-semibold pt-4">Our Services</p>
+                </div>
+                <p class="max-w-xs mt-10 text-sm">
+                    Choose from one of our expertly prepared resume types below, by using pre-established parts that have been endorsed by recruiters internationally, you can begin creating your resume in under 5 seconds, additionally, you can edit to fit your preferences and personality before clicking "Download". Even if you have never created a resume before, it is that SIMPLE to use!
+                </p>
+            </div>
+            <div class="flex justify-center items-center">
+                <img class="lg:block hidden" src="./images/personResume2.png" alt="person resume">
+                <img class="lg:hidden block" src="./images/personResume(res)2.png" alt="resume">
+                <img src="./images/Resume_Sample.png" width="200" alt="resume sample">
+                <img class="lg:hidden block" src="./images/personResume(res)1.png" alt="resume">
+                <img class="lg:block hidden" src="./images/personResume1.png" alt="person resume">
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="flex flex-col items-center gap-8">
+            <h3 class="text-2xl font-semibold ">About FutureResume</h3>
+            <div class="flex lg:flex-row flex-col lg:items-start items-center justify-center gap-12 text-center">
+                <div class="relative">
+                    <img class="absolute -top-3 -left-4" src="./images/vector1.png" alt="vector">
+                    <img class="relative z-20 md:w-96 w-64" src="./images/futureResume.png" alt="future resume">
+                    <img class="absolute -bottom-3 -right-5" src="./images/vector2.png" alt="vector">
+                </div>
+                <div class="lg:text-left text-center">
+                    <p class="mb-10 max-w-md">
+                        Future Resume is a product of FutureLabs — a global innovation & digital skill learning center. Future Resume was born of the need to create a new way for job-seekers to connect with recruiters. Hence, our best hands got to work with one thing in mind: to help you find a great job faster. We went even further to ensure that our Template designs meet Industry Standards and accepted by leading HR departments. With us, you can spin out an impressive resume that makes a memorable first impression!
+                    </p>
+                    <a class="bg-primary text-white px-11 py-3 rounded-3xl" href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="mt-24 container">
+            <div class="text-center mb-20">
+                <h4 class="sm:text-4xl text-[22px] font-semibold mb-3">Benefits Of Using Our Product</h4>
+                <span class="text-primary sm:text-lg text-sm font-semibold">Why Choose Us?</span>
+            </div>
+            <div class="mt-8 grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 xl:gap-x-14 gap-y-20 gap-x-20">
+                <div class="flex lg:items-start items-end justify-center gap-2 text-center">
+                    <img class="lg:my-auto my-0" src="./images/man using laptop.png" alt="man using laptop image">
+                    <div>
+                        <h5 class="text-2xl font-semibold pb-4">Easy to use</h5>
+                        <p class="text-lg">The process of writing a resume is substantially sped up and simplified by using our resume builder.</p>
+                    </div>
+                </div>
+                <div class="flex lg:flex-row flex-row-reverse lg:items-start items-end justify-center gap-1 text-center">
+                    <img class="lg:my-auto my-0" src="./images/Online security.png" alt="online security image">
+                    <div>
+                        <h5 class="text-2xl font-semibold pb-4">Secure</h5>
+                        <p class="text-lg">We respect your privacy & give you control over your content and your data with us.</p>
+                    </div>
+                </div>
+                <div class="flex lg:items-start items-end justify-center gap-1 text-center">
+                    <img class="lg:my-auto my-0" src="./images/Web design.png" alt="web design image">
+                    <div>
+                        <h5 class="text-2xl font-semibold pb-4">Cool Templates</h5>
+                        <p class="text-lg">Our template designs help your resume standout in a pool of others.</p>
+                    </div>
+                </div>
+                <div class="flex lg:flex-row flex-row-reverse lg:items-start items-end justify-center gap-1 text-center">
+                    <img class="lg:my-auto my-0" src="./images/Design Process.png" alt="design process image">
+                    <div>
+                        <h5 class="text-2xl font-semibold pb-4">Intelligent Design</h5>
+                        <p class="text-lg">With us, you won't have to bother about the minute details of resume development, such as font choice, layout etc.</p>
+                    </div>
+                </div>
+                <div class="flex lg:items-start items-end justify-center gap-1 text-center">
+                    <img class="lg:my-auto my-0" src="./images/HR & ATS friendly.png" alt="HR & ATS friendly image">
+                    <div>
+                        <h5 class="text-2xl font-semibold pb-4"> HR-Approved & ATS-Friendly</h5>
+                        <p class="text-lg">The core design of our resume templates are HR-Approved & accepted by leading organizations.</p>
+                    </div>
+                </div>
+                <div class="flex lg:flex-row flex-row-reverse lg:items-start items-end justify-center gap-1 text-center">
+                    <img class="lg:my-auto my-0" src="./images/No messages.png" alt="messages image">
+                    <div>
+                        <h5 class="text-2xl font-semibold pb-4">No Hidden Charges</h5>
+                        <p class="text-lg">We’ve got a free version and our premium pricing is clear. We notify you about any new changes in good time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[url('/src/images/orangeBackground.png')] bg-no-repeat bg-cover md:mb-0 mb-8 sm:pt-40 pt-16">
+        <div class="container">
+            <div class="flex justify-start items-center xl:gap-24 gap-0 xl:text-left text-center">
+                <div>
+                    <p class="xl:text-4xl sm:text-3xl text-4xl font-semibold mb-4 xl:w-96 w-fit">
+                        Testimonials From Our Previous Users
+                    </p>
+                    <span class="text-primary text-lg">
+                        What People Say About Us
+                    </span>
+                </div>
+                <div>
+                    <img class="xl:block hidden" src="./images/Peter-comments.png" alt="comments">
+                </div>
+            </div>
+            <div class="flex xl:justify-around justify-center items-center mt-12">
+                <div>
+                    <img class="sm:block hidden mx-auto" src="./images/Abraham-comments.png" alt="comments">  
+                </div>
+                <div>
+                   <img class="sm:hidden block" src="./images/Abraham-comments-res.png" alt="comments"> 
+                </div>
+                <div>
+                   <img class="xl:block hidden" src="./images/Nsisong-comments.png" alt="comments"> 
+                </div>        
+            </div>
+            <div class="sm:flex hidden justify-center items-center sm:gap-4 mt-6 pb-16">
+                <img src="./images/white-circle-vector.svg" alt="circle vector">
+                <img src="./images/colorless-circle-vector.svg" alt="circle vector">
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#1D1D1D] text-white  py-14">
+        <div class="container">
+            <div class="flex flex-col lg:gap-0 gap-10 flex-wrap border-b-[1px] border-b-white pb-10">
+                <div class="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-20">
+                    <div class="lg:text-left text-center flex flex-col lg:items-start items-center">
+                        <h2 class="text-xl text-primary font-semibold pb-6">Future Resume</h2>
+                        <p>Create your resume in a minute, get your dream job in a blink.</p>
+                    </div>
+                    <div class="lg:text-left text-center">
+                        <h4 class="text-xl font-semibold pb-6">Terms & Policies</h4>
+                        <ul class="flex flex-col gap-4">
+                            <li>
+                                <a href="#">Terms of Service</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lg:text-left text-center">
+                        <h4 class="text-xl font-semibold pb-6">Company</h4>
+                        <ul class="flex flex-col lg:items-start items-center gap-4">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lg:text-left text-center">
+                        <h4 class="text-xl font-semibold pb-6">Contact</h4>
+                        <ul class="flex flex-col lg:items-start items-center gap-4">
+                            <li>
+                                <a href="#">(+234) 8089466435</a>
+                            </li>
+                            <li>
+                                <a href="#">agencycr@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex lg:justify-start justify-center gap-6">
+                    <img class="lg:w-6 w-5" src="./images/Twitter.png" alt="twitter icon">
+                    <img class="lg:w-6 w-5" src="./images/Facebook.png" alt="facebook icon">
+                    <img class="lg:w-6 w-5" src="./images/Instagram.png" alt="instagram icon">
+                    <img class="lg:w-6 w-5" src="./images/LinkedIn.png" alt="linkedIn icon">
+                </div> 
+            </div>   
+            <p class="text-center text-sm pt-10">Copyright, FutureResume 2022. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
