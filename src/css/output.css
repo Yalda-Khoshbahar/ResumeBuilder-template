@@ -704,6 +704,10 @@ video {
   z-index: 20;
 }
 
+.m-20 {
+  margin: 5rem;
+}
+
 .mx-0 {
   margin-left: 0px;
   margin-right: 0px;
@@ -719,14 +723,34 @@ video {
   margin-bottom: 0px;
 }
 
-.my-24 {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+.my-28 {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
 }
 
 .my-32 {
   margin-top: 8rem;
   margin-bottom: 8rem;
+}
+
+.my-24 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.my-36 {
+  margin-top: 9rem;
+  margin-bottom: 9rem;
+}
+
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .mb-10 {
@@ -769,6 +793,10 @@ video {
   margin-top: 6rem;
 }
 
+.mt-28 {
+  margin-top: 7rem;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -785,24 +813,52 @@ video {
   margin-top: 2rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
+.mt-32 {
+  margin-top: 8rem;
 }
 
 .mt-40 {
   margin-top: 10rem;
 }
 
-.mt-28 {
-  margin-top: 7rem;
+.mt-44 {
+  margin-top: 11rem;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-48 {
+  margin-top: 12rem;
+}
+
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .block {
@@ -876,10 +932,6 @@ video {
 
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-end {
@@ -997,116 +1049,12 @@ video {
   background-color: transparent;
 }
 
-.bg-\[_url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\] {
-  background-color:  url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg');
-}
-
-.bg-\[url\(\'\/src\/images\/orangeBackground\.png\'\)\2c _url\(\'\/src\/images\/background-vector1\.svg\'\)\] {
-  background-image: url('/src/images/orangeBackground.png'), url('/src/images/background-vector1.svg');
+.bg-\[url\(\'\/src\/images\/orangeBackground\.png\'\)\] {
+  background-image: url('/src/images/orangeBackground.png');
 }
 
 .bg-\[url\(\'\/src\/images\/sectionBackground\.png\'\)\] {
   background-image: url('/src/images/sectionBackground.png');
-}
-
-.bg-\[url\(\'\/src\/images\/orangeBackground\.png\'\)\2c _url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _\] {
-  background-image: url('/src/images/orangeBackground.png'), url('/src/images/background-vector1.svg'), ;
-}
-
-.bg-\[url\(\'\/src\/images\/orangeBackground\.png\'\)\2c _url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\] {
-  background-image: url('/src/images/orangeBackground.png'), url('/src/images/background-vector1.svg'), url;
-}
-
-.bg-\[url\(\'\/src\/images\/orangeBackground\.png\'\)\2c _url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\'\)\] {
-  background-image: url('/src/images/orangeBackground.png'), url('/src/images/background-vector1.svg'), url('');
-}
-
-.bg-\[url\(\'\/src\/images\/orangeBackground\.png\'\)\2c _url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'background-vector1\'\)\] {
-  background-image: url('/src/images/orangeBackground.png'), url('/src/images/background-vector1.svg'), url('background-vector1');
-}
-
-.bg-\[url\(\'\/src\/images\/orangeBackground\.png\'\)\2c _url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector1\.svg\'\)\] {
-  background-image: url('/src/images/orangeBackground.png'), url('/src/images/background-vector1.svg'), url('/src/images/background-vector1.svg');
-}
-
-.bg-\[url\(\'\/src\/images\/orangeBackground\.png\'\)\2c _url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\] {
-  background-image: url('/src/images/orangeBackground.png'), url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg');
-}
-
-.bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\] {
-  background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg');
-}
-
-.bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c \] {
-  background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg'),;
-}
-
-.bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c _\] {
-  background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg'), ;
-}
-
-.bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c _url\] {
-  background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg'), url;
-}
-
-.bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c _url\(\)\] {
-  background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg'), url();
-}
-
-.bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c _url\(\'\'\)\] {
-  background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg'), url('');
-}
-
-.bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c _url\(\'url\(\'\/src\/images\/orangeBackground\.png\'\)\2c \'\)\] {
-  background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg'), url('url('/src/images/orangeBackground.png'),');
-}
-
-.bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c _url\(\'url\(\'\/src\/images\/orangeBackground\.png\'\)\'\)\] {
-  background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg'), url('url('/src/images/orangeBackground.png')');
-}
-
-.bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c _url\(\'\/src\'\)\] {
-  background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg'), url('/src');
-}
-
-.bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c _url\(\'\/src\/\'\)\] {
-  background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg'), url('/src/');
-}
-
-.bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c _url\(\'\/src\/images\'\)\] {
-  background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg'), url('/src/images');
-}
-
-.bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c _url\(\'\/src\/images\/\'\)\] {
-  background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg'), url('/src/images/');
-}
-
-.bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c _url\(\'\/src\/images\/back\'\)\] {
-  background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg'), url('/src/images/back');
-}
-
-.bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c _url\(\'\/src\/images\/background\'\)\] {
-  background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg'), url('/src/images/background');
-}
-
-.bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c _url\(\'\/src\/images\/background-vector\'\)\] {
-  background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg'), url('/src/images/background-vector');
-}
-
-.bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c _url\(\'\/src\/images\/background-vector3\.s\'\)\] {
-  background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg'), url('/src/images/background-vector3.s');
-}
-
-.bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c _url\(\'\/src\/images\/background-vector3\.svd\'\)\] {
-  background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg'), url('/src/images/background-vector3.svd');
-}
-
-.bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c _url\(\'\/src\/images\/background-vector3\.svg\'\)\] {
-  background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg'), url('/src/images/background-vector3.svg');
-}
-
-.bg-\[url\(\'\/src\/images\/orangeBackground\.png\'\)\] {
-  background-image: url('/src/images/orangeBackground.png');
 }
 
 .bg-contain {
@@ -1115,26 +1063,6 @@ video {
 
 .bg-cover {
   background-size: cover;
-}
-
-.bg-center {
-  background-position: center;
-}
-
-.bg-left {
-  background-position: left;
-}
-
-.bg-right {
-  background-position: right;
-}
-
-.bg-top {
-  background-position: top;
-}
-
-.bg-bottom {
-  background-position: bottom;
 }
 
 .bg-no-repeat {
@@ -1290,11 +1218,6 @@ video {
   line-height: 1rem;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -1391,7 +1314,7 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:bg-\[\#ff7f35\]:hover {
+.hover\:bg-orange-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 127 53 / var(--tw-bg-opacity));
 }
@@ -1401,9 +1324,14 @@ video {
   background-color: rgb(255 92 0 / var(--tw-bg-opacity));
 }
 
-.hover\:text-\[\#ff7f35\]:hover {
+.hover\:text-orange-100:hover {
   --tw-text-opacity: 1;
   color: rgb(255 127 53 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
@@ -1435,76 +1363,8 @@ video {
     padding-top: 5rem;
   }
 
-  .sm\:pt-40 {
-    padding-top: 10rem;
-  }
-
-  .sm\:pt-60 {
-    padding-top: 15rem;
-  }
-
-  .sm\:pt-6 {
-    padding-top: 1.5rem;
-  }
-
-  .sm\:pt-64 {
-    padding-top: 16rem;
-  }
-
-  .sm\:pt-5 {
-    padding-top: 1.25rem;
-  }
-
   .sm\:pt-52 {
     padding-top: 13rem;
-  }
-
-  .sm\:pt-8 {
-    padding-top: 2rem;
-  }
-
-  .sm\:pt-80 {
-    padding-top: 20rem;
-  }
-
-  .sm\:pt-7 {
-    padding-top: 1.75rem;
-  }
-
-  .sm\:pt-72 {
-    padding-top: 18rem;
-  }
-
-  .sm\:pt-9 {
-    padding-top: 2.25rem;
-  }
-
-  .sm\:pt-96 {
-    padding-top: 24rem;
-  }
-
-  .sm\:pt-3 {
-    padding-top: 0.75rem;
-  }
-
-  .sm\:pt-32 {
-    padding-top: 8rem;
-  }
-
-  .sm\:pt-4 {
-    padding-top: 1rem;
-  }
-
-  .sm\:pt-44 {
-    padding-top: 11rem;
-  }
-
-  .sm\:pt-0 {
-    padding-top: 0px;
-  }
-
-  .sm\:pt-56 {
-    padding-top: 14rem;
   }
 
   .sm\:text-3xl {
@@ -1533,10 +1393,6 @@ video {
     margin-bottom: 0px;
   }
 
-  .md\:mb-10 {
-    margin-bottom: 2.5rem;
-  }
-
   .md\:block {
     display: block;
   }
@@ -1547,10 +1403,6 @@ video {
 
   .md\:w-96 {
     width: 24rem;
-  }
-
-  .md\:bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c _url\(\'\/src\/images\/background-vector3\.svg\'\)\] {
-    background-image: url('/src/images/background-vector1.svg'), url('/src/images/background-vector2.svg'), url('/src/images/background-vector3.svg');
   }
 }
 
@@ -1637,20 +1489,8 @@ video {
     gap: 4rem;
   }
 
-  .lg\:gap-2 {
-    gap: 0.5rem;
-  }
-
   .lg\:gap-20 {
     gap: 5rem;
-  }
-
-  .lg\:gap-3 {
-    gap: 0.75rem;
-  }
-
-  .lg\:gap-32 {
-    gap: 8rem;
   }
 
   .lg\:bg-\[url\(\'\/src\/images\/background-vector1\.svg\'\)\2c _url\(\'\/src\/images\/background-vector2\.svg\'\)\2c _url\(\'\/src\/images\/background-vector3\.svg\'\)\] {
@@ -1681,10 +1521,6 @@ video {
 
   .xl\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .xl\:items-center {
-    align-items: center;
   }
 
   .xl\:justify-start {
